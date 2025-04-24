@@ -6,30 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootfiles/bootstrap.css">
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
-    <style>
-        .background {
-            background-image: url(IMAGES/reg\ uni.jpg);
-            background-size: cover;
-            background-position: center;
-            /* position: relative; */
-            height: fit-content;
-        }
-        .overlay {
-            /* position: absolute; */
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: fit-content;
-            background-color:  rgba(0, 0, 0, 0.6);
-        }
-        #tran:hover {
-            transform: scale(1.03);
-        }
-    </style>
 </head>
 <body>
     <div class="wrapper">
-        <div class="">
+        <div class="fixed-top">
             <div class="first bg-light d-flex" style="height: 10vh; justify-content: space-between; ">
                 <div class="my-3 d-flex" style="border-left: 2px solid darkslategrey; align-items: center;">
                     <a href="" style="margin-left: 20px; color: darkslategrey;"><i class="fa-brands fa-facebook-f"></i></a></i>
@@ -50,7 +30,7 @@
                 <div id="five" class="collapse navbar-collapse mx-4" >
                     <ul class="navbar-nav" style="font-size: 25px; ">
                         <li class="nav-item">
-                                <a href="Index.html" class="nav-link">Home</a>
+                                <a href="../index.html" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -90,54 +70,45 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="background">
-                <div class="overlay">
-                    <div class="container row " style=" height: fit-content; display: flex; color: white; margin: auto; display: flex; justify-content: space-between;">
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 my-5" style="width: 48%; height: fit-content; background-color: darkslategrey; border-radius: 20px; margin: auto; display: flex; justify-content: space-between;" id="tran">
-                            <div class="mx-2" style="width: 50%; height: fit-content; font-size: 18px; margin: auto;">
-                                <p style="color: silver;"><em> GET IN TOUCH</em></p>
-                                <p>
-                                    Aruleba Tolulope University <br>
-                                    Km 3 Ado Ekiti Road, PMB 507, Ekiti Nigeria.
-                                </p>
-                                <p>
-                                    <span style="color: silver;"><em>Contact:</em></span><br>
-                                    08108202424
-                                </p>
-                            </div>
-                            <div style="width: 50%;height: fit-content; font-size: 18px; margin: auto;">
-                                <p>
-                                   <span style="color: silver;"><em>Support:</em></span><br>
-                                    08108202424
-                                </p>
-                                <p>
-                                    <span style="color: silver;"><em>Our Email:</em></span><br>
-                                    care@atuuni.com
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 my-5" style="width: 48%; height: fit-content; background-color: whitesmoke; margin-top: 50px; border-radius: 20px; color: rgb(70, 69, 69); text-align: center;" id="tran">
-                            <p style="font-size: 22px; font-weight: bold; padding-top: 30px;">We'll love to hear from you</p>
-                            <input type="text" placeholder=" Name" style="width: 80%;height: 45px; border: none; outline-color: rgb(192, 190, 190);"> <br><br>
-                            <input type="text" placeholder=" Email Address" style="width: 80%;height: 45px; border: none; outline-color: rgb(192, 190, 190);"> <br><br>
-                            <input type="text" placeholder=" Message" style="width: 80%;height: 100px; border:none; outline-color: rgb(192, 190, 190);"> <br>
-                            <a href="Index.html" class="btn btn-secondary my-5"> Submit</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
-        <div class="w-100 d-flex mb-2 " style="height: 15vh; justify-content: center;align-items: center; font-size: 18px; background-color: darkslategrey;">
+
+        <div class="w-100" style="height: fit-content; margin-top: 140px;">
+            <img src="IMAGES/mission uni.jpg" alt="" style="width: 100%; height: 70vh;">
+        </div>
+        <div class="container my-5">
+           <div class="w-100">
+                <div>
+                    <h1>Mission</h1>
+                    <p>To nurture a teaching and learning community; advance frontiers of knowledge; engender a sense of selfless public service; and add value to African culture.</p>
+                </div>
+                <div>
+                    <h1>Vision</h1>
+                    <p>A top-rated university in Africa.</p>
+                </div>
+                <div>
+                    <h1>Strategic Objective</h1>
+                    <ol>
+                        <li>To produce graduate of international standard, with appropriate knowledge and skills in their field of study, who will be highly employable and able to employ themselves.</li> <br>
+                        <li>To provide high quality research and development activities that will promote the development of the Nation and enhance the image of the University and the researchers.</li> <br>
+                        <li>To harness modern technology especially ICT and modern social, economic and financial strategies to run a cost of efficient and effective academic programme and institutional management.</li> <br>
+                        <li>To provide services that has relevance to and impact on the local community and the Nation.</li> <br>
+                        <li>To provide conditions of study, work and living in the University Community that is of appropriate standard.</li> <br>
+                        <li>To expand access to tertiary education in the face of unmet demand.</li> <br>
+                        <li>To operate as an equal opportunity educational institution, sensitive to the principle of gender equity and non-discriminatory on the basis of race, ethnicity, religion or physical disability</li> <br>
+                    </ol>
+                </div>
+           </div>
+        </div>
+        <div class="w-100 d-flex mb-2" style="height: 15vh; justify-content: center;align-items: center; font-size: 18px; background-color: darkslategrey;">
             <p class="text-white" >Copyright &copy; 2024. All rights reserved.</p>
         </div>
     </div>
-
-
     
-
     <script src="bootfiles/jquery-slim.min.js"></script>
     <script src="bootfiles/popper.min.js"></script>
     <script src="bootfiles/bootstrap.js"></script>
+
 </body>
 </html>
